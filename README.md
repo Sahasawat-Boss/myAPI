@@ -40,3 +40,8 @@ It is deployed on **Railway** and available for public use.
 👉 Try it: [View API Users](https://myapi-from-boss-free-use.up.railway.app/posts)
 
 ---
+![Screenshot 2025-03-01 113418](https://github.com/user-attachments/assets/1e45a230-2b92-4d36-99c5-20a67c888b6d)
+![Screenshot 2025-03-01 113427](https://github.com/user-attachments/assets/e1891076-7bfa-450a-a84a-b768643964eb)
+
+
+
