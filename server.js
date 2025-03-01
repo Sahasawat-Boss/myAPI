@@ -43,5 +43,5 @@ app.get('/posts', (req, res) => {
 // Start the server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-    console.log(`🚀 Server running on port ${PORT} | Visit: https://myapi-from-boss-free-use.up.railway.app/`);
+    console.log(`🚀 Server running on http://localhost:3000/ or Visit: https://myapi-from-boss-free-use.up.railway.app/`);
 });
