@@ -16,10 +16,15 @@ if (!process.env.DATABASE_URL) {
 const pool = mysql2.createPool(process.env.DATABASE_URL);
 
 // Root route
+//Only One res.json() is Allowed Per Route
 app.get('/', (req, res) => {
-    res.json({ msg: 'Free API Server' });
-    res.json({ msg: 'Sample Users Data visit: https://myapi-from-boss-free-use.up.railway.app/users' });
+    res.json({
+        msg: "Free API Server by Boss",
+        info: "Sample Users Data",
+        users_url: "https://myapi-from-boss-free-use.up.railway.app/users"
+    });
 });
+
 
 // Users route (Fixes MySQL connection issue)
 app.get('/users', (req, res) => {
