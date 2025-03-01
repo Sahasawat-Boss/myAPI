@@ -37,3 +37,6 @@ It is deployed on **Railway** and available for public use.
     },
     ...
   ]
+👉 Try it: [View API Users](https://myapi-from-boss-free-use.up.railway.app/posts)
+
+---
