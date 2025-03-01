@@ -18,6 +18,7 @@ const pool = mysql2.createPool(process.env.DATABASE_URL);
 // Root route
 app.get('/', (req, res) => {
     res.json({ msg: 'Free API Server' });
+    res.json({ msg: 'Sample Users Data visit: https://myapi-from-boss-free-use.up.railway.app/users' });
 });
 
 // Users route (Fixes MySQL connection issue)
