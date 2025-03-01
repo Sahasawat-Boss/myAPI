@@ -1,16 +1,17 @@
 # 🚀 MyAPI - Free Open API by Boss
 
 ![Node.js](https://img.shields.io/badge/Node.js-Express-blue?style=flat-square)
-![MySQL](https://img.shields.io/badge/MySQL-Database-orange?style=flat-square)
+![TiDB](https://img.shields.io/badge/Database-TiDB-blue?style=flat-square)
+![DBeaver](https://img.shields.io/badge/DBMS-DBeaver-lightgrey?style=flat-square)
 ![Railway](https://img.shields.io/badge/Hosted%20on-Railway-green?style=flat-square)
 
 ## 📖 Overview
-**MyAPI** is a free and open RESTful API built with **Node.js, Express, and MySQL**, designed to provide **sample user and post data**.  
-It is deployed on **Railway** and available for public use.
+**MyAPI** is a free and open RESTful API project, built with **Node.js, Express, and TiDB**, designed to provide **sample user and post data**.  
+It is deployed on **Railway** and uses **TiDB** as a scalable cloud database, with **DBeaver** for database management.
 
 🌍 **Live API URL**: [https://myapi-from-boss-free-use.up.railway.app](https://myapi-from-boss-free-use.up.railway.app)  
 
----
+
 
 ## 📌 API Endpoints
 
@@ -20,7 +21,6 @@ It is deployed on **Railway** and available for public use.
 - Try it: [View API Homepage](https://myapi-from-boss-free-use.up.railway.app/)
 
 ---
-
 ### **👤 Users Endpoint**
 - **GET** `/users`  
 - Returns a list of **sample users** stored in the database.  
